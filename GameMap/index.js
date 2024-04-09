@@ -134,7 +134,7 @@ function drawMask() {
     maskCtx.arc(
         player.absX + tileSize / 2,
         player.absY + tileSize / 2, 
-        tileSize * 50, 0, Math.PI * 2
+        tileSize * 3, 0, Math.PI * 2
     );
     maskCtx.clip();
     maskCtx.clearRect(0, 0, width * tileSize, height * tileSize);
